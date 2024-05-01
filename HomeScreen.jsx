@@ -4,7 +4,7 @@ import { View, Text, StyleSheet, FlatList, Image, TouchableOpacity, TextInput } 
 import LoadingScreen from './LoadingScreen'; // Import the LoadingScreen component
 import { useNavigation } from '@react-navigation/native';
 
-const apiKey = "AIzaSyBq1E18HtESCUqdnvuJm5qRZLJAYjp3-Pk";
+const apiKey = "";
 
 const HomeScreen = () => {
   const [videos, setVideos] = useState([]);
